@@ -54,7 +54,7 @@ function Register() {
           <input 
             type='email' 
             value={email}
-            placeholder="Enter your email"
+            placeholder="Enter your email_id"
             required
             onChange={e => setEmail(e.target.value)}/>
 

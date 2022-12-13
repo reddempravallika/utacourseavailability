@@ -36,28 +36,29 @@ function Login(){
   return(
     <div className='center'>
       <div className='auth'>
-        <h1>Log in</h1>
+        <h1>UTA COURSE AVAILABILITY</h1>
+        <h1>Student Login</h1>
         {error && <div className='auth__error'>{error}</div>}
         <form onSubmit={login} name='login_form'>
           <input 
             type='email' 
             value={email}
             required
-            placeholder="Enter your email"
+            placeholder=" email_id"
             onChange={e => setEmail(e.target.value)}/>
 
           <input 
             type='password'
             value={password}
             required
-            placeholder='Enter your password'
+            placeholder='password'
             onChange={e => setPassword(e.target.value)}/>
 
           <button type='submit'>Login</button>
         </form>
         <p>
-          Don't have and account? 
-          <Link to='/register'>Create one here</Link>
+          Don't have an account? 
+          <Link to='/register'>Register_Here</Link>
         </p>
       </div>
     </div>

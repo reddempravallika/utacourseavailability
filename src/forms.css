@@ -1,7 +1,7 @@
 .auth{
   width: 90%;
-  max-width: 400px;
-  border: 1px solid #dcdcdc;
+  max-width: 500px;
+  border: 1px solid #0a0909;
   padding: 20px;
   text-align: center;
 }
@@ -15,13 +15,13 @@
 
 .auth__success{
   padding: 10px 0;
-  background-color: hsl(147, 79%, 87%);
+  background-color: hsl(83, 48%, 51%);
   margin-bottom: 20px;
 }
 
 .auth__error{
   padding: 10px 0;
-  background-color: hsl(0, 79%, 87%);
+  background-color: hsl(0, 90%, 48%);
   margin-bottom: 20px;
 }
 
